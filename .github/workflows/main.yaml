@@ -13,7 +13,7 @@ jobs:
     name: Deploy to Cloud Run
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout Default: ${{ github.repository }}
+      - uses: actions/checkout@v3
 
       # Setup gcloud CLI
       - uses: GoogleCloudPlatform/github-actions/setup-gcloud@main
